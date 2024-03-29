@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 #define PROGRAM_NAME "Gravitational Simulation"
-#define MAX_FPS 60
+#define MAX_FPS 300
 
 #define WINDOW_WIDTH 700
 #define WINDOW_HEIGHT 700
@@ -17,7 +17,7 @@
 #define UNUSED(x) (void)(x)
 
 #define PRINT_FPS_DELAY_FRAMES MAX_FPS
-#define SCROLL_SPEED 0.333333333
+#define SCROLL_SPEED 1
 
 // CAREFUL. 
 // If you set these values too low and zoom out too much
